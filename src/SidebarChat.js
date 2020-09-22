@@ -10,7 +10,7 @@ function SidebarChat({ id, name, addNewChat }) {
     const [seed, setSeed] = useState('')
 const [messages, setMessages] = useState('')    
 useEffect(() => {
-if(id){
+if(id){ 
     db.collection('rooms')
     .doc(id).collection('messages')
     .orderBy('timestamp','desc')
