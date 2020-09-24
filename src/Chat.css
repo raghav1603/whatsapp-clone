@@ -28,7 +28,7 @@
 }
 .chat__body{
     flex: 1;
-    background-color: rgb(183, 224, 99);
+    background-color: rgb(187, 187, 187);
     background-repeat: repeat;
     background-position: center;
     padding: 30px;
@@ -55,7 +55,7 @@
 }
 .chat__recieved{
     margin-left: auto;
-    background-color: rgb(202, 56, 202);
+    background-color: #74da45;
 }
 .chat__footer{
     display: flex;
@@ -73,7 +73,7 @@
     border-radius: 30px;
     padding:10px;
     border: none;
-    background-color: rgb(247, 247, 73);
+    background-color:white;
 }
 .chat__footer>form>button{
     display: none;

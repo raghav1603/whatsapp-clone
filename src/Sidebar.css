@@ -32,6 +32,10 @@
     padding: 20px;
     border-right: 1px solid lightgrey;
 }
+.sidebar__header>h3{
+    padding-left: 20px;
+    padding-right: 10px;
+}
 .sidebar__headerRight{
     display: flex;
     align-items: center;

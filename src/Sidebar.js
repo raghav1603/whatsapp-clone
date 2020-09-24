@@ -8,7 +8,7 @@ import { useStateValue } from './StateProvider'
 
 function Sidebar() {
     const [rooms, setRooms] = useState([])
-    const[{user},dispatch]=useStateValue('')
+    const [{ user }, dispatch] = useStateValue('')
     useEffect(() => {
         const unsubscribe = db.collection('rooms')
             .onSnapshot(snapshot => (
@@ -25,6 +25,7 @@ function Sidebar() {
         <div className='sidebar'>
             <div className="sidebar__header">
                 <Avatar src={user?.photoURL} />
+                <h3>{user?.displayName}</h3>
                 <div className="sidebar__headerRight">
                     <IconButton>
                         <DonutLarge />
