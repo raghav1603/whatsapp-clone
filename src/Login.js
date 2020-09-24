@@ -1,5 +1,5 @@
 import { Button } from '@material-ui/core'
-import React, from 'react'
+import React from 'react'
 import { provider, auth } from './firebase'
 import './Login.css'
 import { actionTypes } from './reducer'
